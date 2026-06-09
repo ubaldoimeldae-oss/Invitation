@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amariah Sophie's Christening Invitation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body><audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+<div class="container">
+  <div class="container"><div id="cover">
+    <div class="envelope" onclick="openInvitation()">💌</div>
+    <h2>Amariah Sophie's Christening</h2>
+    <p>Tap the envelope to open your invitation</p>
+</div>
+
+<div id="invitation" style="display:none;">
+
+    <img src="images/amariah.jpg" alt="Amariah Sophie" class="baby-photo">
+
+    <h1>Amariah Sophie</h1>
+
+    <p>
+    With joy in our hearts, we invite you to be part of a very special day
+    as our beloved daughter receives the Sacrament of Holy Baptism.
+    </p>
+
+    <h3>July 19, 2026</h3>
+
+    <p>
+    We would be deeply honored if you would accept the role of
+    Ninong / Ninang and guide Amariah Sophie with your prayers,
+    wisdom, and love throughout her life.
+    </p>
+
+    <button onclick="acceptInvite()">❤️ Yes, I Accept</button>
+
+    <button onclick="declineInvite()">🤍 No, I Cannot Attend</button>
+
+    <p id="response"></p>
+
+</div>
+
+</div><script src="script.js"></script></body>
+</html>
